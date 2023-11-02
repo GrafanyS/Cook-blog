@@ -50,7 +50,7 @@
     python manage.py runserver
 
 
-Copyright (c) 2022-present, Tishchyk Maksym
+Copyright (c) 2023-present, Valetov Andrei
 
 
 
