@@ -437,8 +437,7 @@ ol {
 
 .header__menu ul li .dropdown__menu li a {
 	color: #ffffff;
-	padding: 5px 0;
-	padding-left: 20px;
+	padding: 5px 0 5px 20px;
 	text-transform: capitalize;
 }
 
@@ -488,8 +487,7 @@ ol {
 	top: 62px;
 	z-index: 9;
 	background: #ffffff;
-	padding: 30px;
-	padding-bottom: 25px;
+	padding: 30px 30px 25px;
 	max-width: 1170px;
 	margin: 0 auto;
 	opacity: 0;
@@ -497,8 +495,8 @@ ol {
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	transition: all 0.5s;
-	-webkit-box-shadow: 0px 5px 15px rgba(20, 14, 5, 0.15);
-	box-shadow: 0px 5px 15px rgba(20, 14, 5, 0.15);
+	-webkit-box-shadow: 0 5px 15px rgba(20, 14, 5, 0.15);
+	box-shadow: 0 5px 15px rgba(20, 14, 5, 0.15);
 }
 
 .header__megamenu {
@@ -1184,7 +1182,7 @@ ol {
 .categories__post__item__text h3 a {
 	color: #111111;
 	line-height: 29px;
-	letter-spacing: 0.5px;
+	letter-spacing: 1px;
 	font-size: 22px;
 	display: block;
 }
@@ -1234,11 +1232,8 @@ ol {
 
 .categories__post__item__small {
 	background: #f5f5f5;
-	padding-left: 30px;
-	padding-right: 30px;
-	padding-bottom: 25px;
 	position: relative;
-	padding-top: 60px;
+	padding: 60px 30px 25px;
 	margin-bottom: 60px;
 }
 
@@ -1251,7 +1246,7 @@ ol {
 .categories__post__item__small p {
 	font-size: 15px;
 	color: #000000;
-	letter-spacing: 0.5px;
+	letter-spacing: 1px;
 	font-weight: 600;
 }
 
@@ -1554,7 +1549,7 @@ ol {
 	color: #ffffff;
 	line-height: 23px;
 	font-weight: 700;
-	letter-spacing: 0.5px;
+	letter-spacing: 1px;
 }
 
 .sidebar__feature__item__list__single {
@@ -1611,7 +1606,7 @@ ol {
 	color: #111111;
 	line-height: 23px;
 	font-weight: 700;
-	letter-spacing: 0.5px;
+	letter-spacing: 1px;
 }
 
 .sidebar__item__banner {
@@ -1753,8 +1748,7 @@ ol {
 	background: #ffffff;
 	-webkit-box-shadow: -1px 5px 5px rgba(20, 14, 5, 0.1);
 	box-shadow: -1px 5px 5px rgba(20, 14, 5, 0.1);
-	padding: 50px;
-	padding-right: 40px;
+	padding: 50px 40px 50px 50px;
 	position: relative;
 	margin-top: -105px;
 	margin-bottom: 50px;
@@ -1905,10 +1899,7 @@ ol {
 .single-post__recipe__details__option {
 	background: #f5f5f5;
 	border-bottom: 1px solid #e1e1e1;
-	padding-left: 30px;
-	padding-right: 30px;
-	padding-top: 25px;
-	padding-bottom: 20px;
+	padding: 25px 30px 20px;
 }
 
 .single-post__recipe__details__option ul {
@@ -1945,10 +1936,7 @@ ol {
 }
 
 .single-post__recipe__details__indegradients {
-	padding-left: 30px;
-	padding-right: 30px;
-	padding-top: 25px;
-	padding-bottom: 15px;
+	padding: 25px 30px 15px;
 	border-bottom: 1px solid #e1e1e1;
 }
 
@@ -1979,10 +1967,7 @@ ol {
 }
 
 .single-post__recipe__details__direction {
-	padding-left: 30px;
-	padding-right: 30px;
-	padding-top: 25px;
-	padding-bottom: 15px;
+	padding: 25px 30px 15px;
 }
 
 .single-post__recipe__details__direction h5 {
@@ -2611,8 +2596,8 @@ ol {
 
 .contact__map {
 	height: 350px;
-	-webkit-box-shadow: 0px 5px 5px rgba(20, 14, 5, 0.1);
-	box-shadow: 0px 5px 5px rgba(20, 14, 5, 0.1);
+	-webkit-box-shadow: 0 5px 5px rgba(20, 14, 5, 0.1);
+	box-shadow: 0 5px 5px rgba(20, 14, 5, 0.1);
 	margin-bottom: 30px;
 }
 
@@ -2759,8 +2744,7 @@ ol {
 }
 
 .signin__form__text {
-	padding: 50px;
-	padding-top: 38px;
+	padding: 38px 50px 50px;
 }
 
 .signin__form__text p {
@@ -2789,7 +2773,6 @@ ol {
 	font-size: 15px;
 	color: #444444;
 	padding-left: 20px;
-	margin-bottom: 30px;
 	display: block;
 	cursor: pointer;
 	margin-left: 20px;
